@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head></head><link rel="stylesheet" href="MyFirstGameUI.css">
+<style>
+
+</style>
+<body>
+			<div class="map" id="map"><div id="player" class="player"></div></div><br>
+			<table class="Buttons" align="center">
+						<tr>
+									<td></td>
+									<td><button onclick = "up()">Up</button></td>
+									<td></td>
+						</tr>
+						<tr>
+									<td><button onclick = "left()">left</button></td>
+									<td></td>
+									<td><button onclick = "right()" draggable="enable">Right</button></td>
+						</tr>
+						<tr>
+									<td></td>
+									<td><button onclick = "down()">Down</button></td>
+									<td></td>
+						</tr>
+			</table>
+			<br>
+			<p id="space" style="color: red;" class="placeholderX"></p>
+			<p id="space1" style="color: red;" class="placeholderY"></p>
+			<script src="MyFirstGame.js"></script>
+</body>
+</html>
