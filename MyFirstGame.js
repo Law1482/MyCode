@@ -70,7 +70,7 @@ var offHeight = Player.offsetHeight;
 			        playY -= step;
 			        move(playX, playY);
 				} else {
-				    move2(playY, playY);
+				    move2(playX, playY);
 				}
 			}
 			
